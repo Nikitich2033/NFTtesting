@@ -1,0 +1,25 @@
+{
+  "name": "nfttesting",
+  "version": "1.0.0",
+  "description": "NFT testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikitich2033/NFTtesting.git"
+  },
+  "author": "Nikitich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikitich2033/NFTtesting/issues"
+  },
+  "homepage": "https://github.com/Nikitich2033/NFTtesting#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0"
+  }
+}
