@@ -60,6 +60,7 @@ connectButton.addEventListener("click", () => {
       installAlert.classList.add("show");
     }
   }
+  
 });
 
 reloadButton.addEventListener("click", () => {
