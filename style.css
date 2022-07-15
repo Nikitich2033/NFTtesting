@@ -128,11 +128,3 @@ html, body {
 	animation-delay: 300ms;
 	animation-delay: 300ms;
 }
-
-.nav.navbar-nav li a {
-    color: #fff;
-  }
- 
- .nav.navbar-nav a:hover {
-  color: grey;
- }
