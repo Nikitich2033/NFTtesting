@@ -19,38 +19,39 @@
 
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body style="background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);">
-      <a class="navbar-brand" href="#" class="text-white">birb</a>
+  <body style="background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3" style="background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);">
+      <a class="navbar-brand" href="#">birb</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" class="text-white" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" class="text-white" href="#">Features</a>
-          <a class="nav-item nav-link" class="text-white" href="#">Pricing</a>
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link"  href="#">Features</a>
+          <a class="nav-item nav-link"  href="#">Pricing</a>
+          <a class="nav-item nav-link"  href="#">Team</a>
         </div>
       </div>
     </nav>
 
     <div class="container">
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="./images/birb.png" alt="Card image cap">
+      <div class="card" style="width: 30rem;">
+        <img class="card-img-top" src="./images/birb.png" alt="birb image" style="border-radius: 15px;">
         <div class="card-body">
           <h5 class="card-title">Mint BIRB</h5>
           <button class="button" id="connectButton">
             <img src="./images/metamask.png" alt="metamask logo" /> Connect wallet
     
-            <span id="loading"
-              ><span>&bull;</span><span>&bull;</span><span>&bull;</span></span
+            <span id="loading"><span>&bull;</span><span>&bull;</span><span>&bull;</span></span
             >
           </button>
+          <div id="walletID">Your wallet is not connected yet.</div>
         </div>
       </div>
       
 
-      <div id="walletID">Your wallet is not connected yet.</div>
+      
 
       <div id="mobileDeviceWarning">
         If you are on a mobile phone, please use MetaMask application's browser
