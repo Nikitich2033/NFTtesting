@@ -34,7 +34,7 @@ const isMobile = () => {
 };
 
 connectButton.addEventListener("click", () => {
-  if (isMobile()) {
+  if (isMobile() && window.ethereum == undefined) {
     mobileDeviceWarning.classList.add("show");
   } else {
     
